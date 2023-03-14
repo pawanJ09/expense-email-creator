@@ -1,0 +1,39 @@
+{
+   "version":"2.0",
+   "routeKey":"POST /email-verify",
+   "rawPath":"/v1/email-verify",
+   "rawQueryString":"",
+   "headers":{
+      "accept":"*/*",
+      "accept-encoding":"gzip, deflate, br",
+      "content-length":"49",
+      "content-type":"application/json",
+      "host":"fb1v5uqq90.execute-api.us-east-2.amazonaws.com",
+      "postman-token":"a808adea-54d5-4b91-a77b-4230c9e9e4c3",
+      "user-agent":"PostmanRuntime/7.28.2",
+      "x-amzn-trace-id":"Root=1-640f57a7-1e096c1e33962d714dcd6bdd",
+      "x-forwarded-for":"162.204.15.64",
+      "x-forwarded-port":"443",
+      "x-forwarded-proto":"https"
+   },
+   "requestContext":{
+      "accountId":"213231460839",
+      "apiId":"fb1v5uqq90",
+      "domainName":"fb1v5uqq90.execute-api.us-east-2.amazonaws.com",
+      "domainPrefix":"fb1v5uqq90",
+      "http":{
+         "method":"POST",
+         "path":"/v1/email-verify",
+         "protocol":"HTTP/1.1",
+         "sourceIp":"162.204.15.64",
+         "userAgent":"PostmanRuntime/7.28.2"
+      },
+      "requestId":"BuqiRioEiYcEP4Q=",
+      "routeKey":"POST /email-verify",
+      "stage":"v1",
+      "time":"13/Mar/2023:17:04:39 +0000",
+      "timeEpoch":1678727079851
+   },
+   "body":"{\n    \"user-email\": \"pawan.jaiswal09@gmail.com\"\n}",
+   "isBase64Encoded":false
+}
