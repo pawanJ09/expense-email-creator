@@ -23,8 +23,8 @@ def lambda_handler(event, context):
             print(f'Fetching verified identities from SES')
             email_list_response = ses_client.create_email_identity(EmailIdentity=req['user-email'])
             if email_list_response['ResponseMetadata']['HTTPStatusCode'] == 200:
-                print(f'Provided email found in verified identities')
-                msg = {"message": "Provided Email verified"}
+                print(f'Provided email added')
+                msg = {"message": "Provided Email added"}
                 return {
                     "statusCode": 200,
                     "headers": {"content-type": "application/json"},
