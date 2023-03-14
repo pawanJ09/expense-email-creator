@@ -46,7 +46,15 @@ def lambda_handler(event, context):
             "headers": {"content-type": "application/json"},
             "body": json.dumps(msg)
         }
-    except (Exception, ClientError) as e:
+    except ClientError as ce:
+        print(f'ClientError caught')
+        msg = ce.response['Error']
+        return {
+            "statusCode": 400,
+            "headers": {"content-type": "application/json"},
+            "body": json.dumps(msg)
+        }
+    except Exception as e:
         print(f'Exception caught: {e}')
         msg = {"message": str(e)}
         return {
