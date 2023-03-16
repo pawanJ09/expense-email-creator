@@ -1,7 +1,7 @@
 {
    "version":"2.0",
-   "routeKey":"POST /email-verify",
-   "rawPath":"/v1/email-verify",
+   "routeKey":"POST /email-identity",
+   "rawPath":"/v1/email-identity",
    "rawQueryString":"",
    "headers":{
       "accept":"*/*",
@@ -23,13 +23,13 @@
       "domainPrefix":"fb1v5uqq90",
       "http":{
          "method":"POST",
-         "path":"/v1/email-verify",
+         "path":"/v1/email-identity",
          "protocol":"HTTP/1.1",
          "sourceIp":"162.204.15.64",
          "userAgent":"PostmanRuntime/7.28.2"
       },
       "requestId":"BuqiRioEiYcEP4Q=",
-      "routeKey":"POST /email-verify",
+      "routeKey":"POST /email-identity",
       "stage":"v1",
       "time":"13/Mar/2023:17:04:39 +0000",
       "timeEpoch":1678727079851
